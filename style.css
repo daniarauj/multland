@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.conteudo {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 60px; /* Ajuste para distanciar das bandeiras */
+}
+
+#idiomas {
+    margin-top: 20px;
+}
+
+#bandeiras {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#bandeiras img {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+#bandeiras img:hover {
+    transform: scale(1.2);
+}

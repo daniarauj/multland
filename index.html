@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Multi-Idiomas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bandeiras">
+        <img src="2-bandeira-do-brasil.webp" alt="2-bandeira-do-brasil" onclick="Escolher('ptbr')">
+        <img src="bandeira-da-espanha.webp" alt="bandeira-da-espanha" onclick="Escolher('es')">
+        <img src="bandeira-estados-unidos.webp" alt="bandeira-estados-unidos" onclick="Escolher('en')">
+    </div>
+    
+    <div class="conteudo" id="paragrafo1"></div>
+    <div class="conteudo" id="paragrafo2"></div>
+    <div class="conteudo" id="paragrafo3"></div>
+    <div class="conteudo" id="paragrafo4"></div>
+    <div class="conteudo" id="paragrafo5"></div>
+
+    <div id="idiomas">
+        <button onclick="Escolher('en')">Inglês</button>
+        <button onclick="Escolher('ptbr')">Português</button>
+        <button onclick="Escolher('es')">Espanhol</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
